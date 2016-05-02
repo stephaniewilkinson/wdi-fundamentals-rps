@@ -94,7 +94,7 @@ function playToFive() {
       /* YOUR CODE HERE */
     var rounds = 0;
 
-    for (playerWins < 5 AND computerWins <5) {
+    for (playerWins < 5 && computerWins <5) {
       if winner == "player" {
         playerWins ++;
       }
