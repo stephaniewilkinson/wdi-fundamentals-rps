@@ -93,9 +93,9 @@ function playToFive() {
       //  console.log('The score is currently ' + playerWins + ' to ' + computerWins + '\n');
       /* YOUR CODE HERE */
     var rounds = 0;
-
+    var winner
     while (playerWins < 5 && computerWins <5) {
-      if winner == "player" {
+      if (winner == "player") {
         playerWins ++;
       }
       else if winner = "computer" {
